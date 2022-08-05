@@ -110,14 +110,15 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
-		color: #49bf9d;
+		/* border-bottom: dotted 1px; */
+		color: #0e2544;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			/* color: #49bf9d !important; */
+			color: #95afc6 !important;
 			text-decoration: none;
 		}
 
@@ -1841,7 +1842,8 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			/* border-color: #49bf9d; */
+			border-color: #95afc6;
 		}
 
 	select {
@@ -1946,7 +1948,8 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #49bf9d;
+			/* border-color: #49bf9d; */
+			border-color: #95afc6;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2465,8 +2468,12 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			/* border-color: #49bf9d;
+			color: #49bf9d !important; 
+			border-color: #1d589f;
+			color: #1d589f !important;*/
+			border-color: #95afc6;
+			color: #767676 !important;
 		}
 
 		input[type="submit"]:active,
@@ -2474,8 +2481,10 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			/* border-color: #49bf9d;
+			color: #49bf9d !important; */
+			border-color: #95afc6;
+			color: #767676 !important;
 		}
 
 		input[type="submit"].icon,
@@ -2518,8 +2527,10 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #49bf9d;
-			border-color: #49bf9d;
+			/* border-color: #49bf9d;
+			color: #49bf9d !important; */
+			border-color: #1d589f;
+			color: #1d589f !important;
 			color: #ffffff !important;
 		}
 
@@ -2527,8 +2538,10 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #5cc6a7;
-				border-color: #5cc6a7;
+				/* background-color: #5cc6a7;
+				border-color: #5cc6a7; */
+				background-color: #1d589f;
+				border-color: #1d589f;
 			}
 
 			input[type="submit"].primary:active,
@@ -2592,9 +2605,11 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
+		background-color: #0e2544;
+		/* background-color: #1f1815; */
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/blue_grad.jpg");
+		/* background-image: url("images/overlay.png"), url("../../images/blue.png"); */
+		background-image: url("../../images/blue.png");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2632,11 +2647,22 @@ input, select, textarea {
 			color: #ffffff;
 		}
 
-		#header h1 {
+		/* #header h1 {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
+		}*/
+		
+		#header h1 {
+			color: #ffffff;
+			font-size: 2.5em;
+			line-height: 1.75em;
+			margin: 0;
+		}
+
+		#header h2 {
+			color: rgba(255, 255, 255, 0.5);
 		}
 
 		#header .image.avatar {
@@ -3078,8 +3104,9 @@ input, select, textarea {
 
 			#footer {
 				background-attachment: scroll;
-				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				/* background-color: #1f1815; */
+				background-color: #59c0c4;
+				background-image: url("images/overlay.png"), url("../../images/blue.png");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
