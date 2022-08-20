@@ -3377,16 +3377,12 @@ body.is-touch .poptrox-popup .closer {
 /* SKILLS */
 
 #skills {
-  background: #1c3553;
-  padding: 20px 15px 75px 15px;
-  color: #fff;
 }
 
 .skills-text {
   max-width: 1080px;
   margin-left: auto;
   margin-right: auto;
-  background: #1c3553;
   font-size: 20px;
 }
 
@@ -3406,7 +3402,7 @@ body.is-touch .poptrox-popup .closer {
 }
 
 .skill-name:after {
-  background-color: #999797;
+  background-color: #efefef;
   content: "";
   display: block;
   height: 1rem;
@@ -3425,7 +3421,14 @@ body.is-touch .poptrox-popup .closer {
   width: 0;
 }
 
-/* SKILL BAR COLORS */
+/* SKILL BAR COLORS  */
+.skill-percent-dark {
+  background-color: #061121;
+}
+
+.skill-percent-default {
+  background-color: #1d589f;
+}
 
 .skill-percent-html {
   background-color: #ff5c00;
